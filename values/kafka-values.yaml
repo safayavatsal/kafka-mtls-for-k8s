@@ -1,0 +1,15 @@
+replicaCount: 3
+auth:
+  clientProtocol: mtls
+  interBrokerProtocol: mtls
+  tls:
+    type: pem
+    existingSecrets:
+      - kafka-0-tls
+      - kafka-1-tls
+      - kafka-2-tls
+zookeeper:
+  enabled: false
+externalZookeeper:
+  servers:
+    - "zookeeper.{{ .Release.Name }}.svc.cluster.local"
