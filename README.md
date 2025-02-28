@@ -14,7 +14,7 @@ This repository is a guide attempts to **unleash the potential of the Bitnami ca
 ## TL;DR
 
 ```console
-$ git clone https://github.com/juan131/kafka-mtls-for-k8s.git && cd kafka-mtls-for-k8s
+$ git clone https://github.com/safayavatsal/kafka-mtls-for-k8s.git && cd kafka-mtls-for-k8s
 $ ./setup.sh
 ```
 
